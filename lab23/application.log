@@ -1,0 +1,458 @@
+1841 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 12988 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1860 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+4776 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4992 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 170 ms. Found 3 JPA repository interfaces.
+6650 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+6679 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+6687 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+6687 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+6849 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+6850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 4691 ms
+7451 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+7599 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+7689 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+8375 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+8447 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+9180 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@faec277
+9191 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+9398 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+12389 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12489 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Warning Code: 0, SQLState: 00000
+12490 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц отношение "games" не существует, пропускаетс€
+12591 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Warning Code: 0, SQLState: 00000
+12591 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц таблица "games" не существует, пропускаетс€
+12594 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Warning Code: 0, SQLState: 00000
+12595 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц таблица "users" не существует, пропускаетс€
+12844 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+14762 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15631 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ab3b54, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35d62807, org.springframework.security.web.context.SecurityContextHolderFilter@2b6a4da7, org.springframework.security.web.header.HeaderWriterFilter@36bd07ec, org.springframework.security.web.authentication.logout.LogoutFilter@55b78dad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1df8e685, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ef4a8fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6fc03cf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21457b14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e484bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e70861, org.springframework.security.web.access.ExceptionTranslationFilter@69e8f7a5, org.springframework.security.web.access.intercept.AuthorizationFilter@1454339d]
+16231 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+16280 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+16298 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 15.358 seconds (process running for 16.709)
+28409 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+28411 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+28415 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 3 ms
+1747 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 6580 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1754 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3681 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 221 ms. Found 3 JPA repository interfaces.
+5830 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+5859 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+5866 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+5867 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+6014 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+6015 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 4146 ms
+6578 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6748 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+6834 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+7763 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+7876 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+8391 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@619c3546
+8394 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+8564 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15671 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15896 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+17050 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17838 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61c644fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cbaabfb, org.springframework.security.web.context.SecurityContextHolderFilter@594965c9, org.springframework.security.web.header.HeaderWriterFilter@73476e2d, org.springframework.security.web.csrf.CsrfFilter@29ebaf2f, org.springframework.security.web.authentication.logout.LogoutFilter@edb8f0c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@360e4235, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@402fdef1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@48614fb3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78839c2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25093079, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4eb3b690, org.springframework.security.web.access.ExceptionTranslationFilter@57edfa89, org.springframework.security.web.access.intercept.AuthorizationFilter@75c30a4f]
+18551 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+18615 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+18643 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 17.723 seconds (process running for 19.04)
+25275 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+25275 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+25279 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 3 ms
+28683 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+                Ц Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+1778 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 12840 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1784 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3605 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3754 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+5314 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+5341 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+5348 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+5348 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+5501 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+5502 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3534 ms
+6016 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6243 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+6357 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+6978 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+7091 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+7750 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2af9a5ef
+7754 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+7848 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+10683 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10857 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+12258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13355 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d01fa0c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44bd7f24, org.springframework.security.web.context.SecurityContextHolderFilter@37fc7e3c, org.springframework.security.web.header.HeaderWriterFilter@11b74ecb, org.springframework.security.web.csrf.CsrfFilter@147892be, org.springframework.security.web.authentication.logout.LogoutFilter@33ce081a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48614fb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@85b9f9c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6e3acd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7890324e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14764fdd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55b78dad, org.springframework.security.web.access.ExceptionTranslationFilter@6ab6ec33, org.springframework.security.web.access.intercept.AuthorizationFilter@cbaabfb]
+14854 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+14962 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+14991 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 14.081 seconds (process running for 15.423)
+27218 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+27219 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+27222 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 3 ms
+1839 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 4052 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1845 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3669 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3825 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 132 ms. Found 3 JPA repository interfaces.
+5424 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+5448 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+5453 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+5454 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+5584 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+5585 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3562 ms
+6112 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6260 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+6341 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+6911 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+6985 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+7430 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f0c45f4
+7435 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+7517 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+13135 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+13355 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+14643 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15458 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fc03cf6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e70861, org.springframework.security.web.context.SecurityContextHolderFilter@3e0600a4, org.springframework.security.web.header.HeaderWriterFilter@21457b14, org.springframework.security.web.csrf.CsrfFilter@73476e2d, org.springframework.security.web.authentication.logout.LogoutFilter@689fcf08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ab3b54, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@613f48de, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5fcff272, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1773faf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ef4a8fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b5d6f9c, org.springframework.security.web.access.ExceptionTranslationFilter@2b6a4da7, org.springframework.security.web.access.intercept.AuthorizationFilter@78723798]
+16080 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+16118 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+16135 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 15.324 seconds (process running for 16.678)
+63940 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+63942 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+63945 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 2 ms
+107082 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+                Ц Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+1971 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 9136 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1976 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3986 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4203 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 192 ms. Found 3 JPA repository interfaces.
+6011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+6041 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+6049 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+6050 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+6220 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+6221 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 4082 ms
+6734 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6915 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+7058 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+7891 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+7985 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+8538 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@505f45cc
+8543 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+8631 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+11442 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11632 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+13010 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13852 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47f4dc8d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@689fcf08, org.springframework.security.web.context.SecurityContextHolderFilter@402fdef1, org.springframework.security.web.header.HeaderWriterFilter@1c96bf1e, org.springframework.security.web.csrf.CsrfFilter@73dc7db0, org.springframework.security.web.authentication.logout.LogoutFilter@360e4235, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e3acd7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21457b14, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@738153d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1013aa94, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36bd07ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a3272e0, org.springframework.security.web.access.ExceptionTranslationFilter@25093079, org.springframework.security.web.access.intercept.AuthorizationFilter@44bd7f24]
+14403 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+14449 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+14469 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 13.467 seconds (process running for 14.822)
+38352 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+38352 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+38354 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 2 ms
+2332 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 17264 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+2349 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+4499 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4705 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 186 ms. Found 3 JPA repository interfaces.
+6318 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+6346 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+6352 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+6353 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+6617 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+6619 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 4064 ms
+7122 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+7285 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+7430 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+8028 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+8087 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+8602 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@505f45cc
+8606 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+8682 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+11802 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12106 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+13498 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15670 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bc3c59f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6db2a260, org.springframework.security.web.context.SecurityContextHolderFilter@85b9f9c, org.springframework.security.web.header.HeaderWriterFilter@69e8f7a5, org.springframework.security.web.csrf.CsrfFilter@dc24732, org.springframework.security.web.authentication.logout.LogoutFilter@48614fb3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@738153d8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@341141ab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1454339d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b6a4da7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75b6bd41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1df8e685, org.springframework.security.web.access.ExceptionTranslationFilter@14764fdd, org.springframework.security.web.access.intercept.AuthorizationFilter@689fcf08]
+16276 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+16328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+16352 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 15.392 seconds (process running for 16.824)
+1558 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 16836 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1563 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3367 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 152 ms. Found 3 JPA repository interfaces.
+4839 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+4863 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+4868 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+4869 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+5011 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+5012 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3326 ms
+5467 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+5579 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+5660 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+6194 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+6256 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+6688 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2af9a5ef
+6691 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+6766 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+9218 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9434 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+10775 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11644 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@cbaabfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48614fb3, org.springframework.security.web.context.SecurityContextHolderFilter@11b74ecb, org.springframework.security.web.header.HeaderWriterFilter@52b77d5e, org.springframework.security.web.csrf.CsrfFilter@1a61f634, org.springframework.security.web.authentication.logout.LogoutFilter@6f70015, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b0fc8b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@69e8f7a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4eb3b690, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25093079, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37fc7e3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d01fa0c, org.springframework.security.web.access.ExceptionTranslationFilter@6c0bf8f4, org.springframework.security.web.access.intercept.AuthorizationFilter@360e4235]
+12244 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+12284 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+12303 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 11.535 seconds (process running for 12.662)
+28516 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+28517 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+28519 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 2 ms
+1637 [main] INFO  org.example.DemoApp
+                Ц Starting DemoApp using Java 19.0.2 with PID 1912 (C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23\build\classes\java\main started by Vyacheslav in C:\Users\Vyacheslav\IdeaProjects\sem_4\lab23)
+1643 [main] INFO  org.example.DemoApp
+                Ц No active profile set, falling back to 1 default profile: "default"
+3241 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3381 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 123 ms. Found 3 JPA repository interfaces.
+4819 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+4850 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+4856 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+4857 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+4992 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+4993 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3232 ms
+5442 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+5555 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+5630 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+6187 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+6257 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+6647 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7548e1fb
+6650 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+6732 [main] WARN  org.hibernate.orm.deprecation
+                Ц HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+9101 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9280 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+10410 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11334 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1454339d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1df8e685, org.springframework.security.web.context.SecurityContextHolderFilter@2b6a4da7, org.springframework.security.web.header.HeaderWriterFilter@36bd07ec, org.springframework.security.web.csrf.CsrfFilter@377d55, org.springframework.security.web.authentication.logout.LogoutFilter@1d01fa0c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7bc3c59f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ef4a8fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78723798, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21457b14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e484bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab3b54, org.springframework.security.web.access.ExceptionTranslationFilter@69e8f7a5, org.springframework.security.web.access.intercept.AuthorizationFilter@1a3272e0]
+11913 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+11974 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+11993 [main] INFO  org.example.DemoApp
+                Ц Started DemoApp in 11.112 seconds (process running for 12.576)
+34640 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+34641 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+34643 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 2 ms
